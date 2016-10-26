@@ -1,0 +1,40 @@
+#content-section a {
+    text-decoration: none;
+    padding: 5px 20px;
+    border-radius: 200px;
+    border: 1px solid #000000;
+    cursor: pointer;
+    background-color: $secondaryColor;
+    transition: background-color 0.2s;
+}
+
+#content-section a:hover,
+#content-section a:active {
+    background-color: $secondaryTransitionColor;
+    text-decoration: none;
+}
+
+#content-section a:link,
+#content-section a:visited {
+    text-decoration: none;
+    color: #000000;
+}
+
+#content-section button {
+    font-family: 'Lato', 'Arial', sans-serif;
+    background-color: $thirdColor;
+    border: 1px solid $black;
+    color: $white;
+    transition: background-color 0.2s;
+
+    &:hover,
+    &:active {
+        background-color: $thirdTransitionColor;
+    }
+
+    &:link,
+    &:visited {
+        text-decoration: none;
+        columns: #000000;
+    }
+}

@@ -1,0 +1,31 @@
+table {
+  margin: 100px auto 0 auto;
+  display: none;
+
+  tr:nth-child(even) {
+    background-color: $mainColor;
+  }
+
+  tr:nth-child(odd) {
+    background-color: $grey;
+  }
+  
+  th {
+    color: $white;
+    background-color: $black;
+  }
+}
+
+table,
+table th,
+table td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+table th,
+table td {
+  color: $white;
+  padding: 20px 5px;
+  text-align: left;
+}

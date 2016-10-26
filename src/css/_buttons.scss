@@ -1,0 +1,13 @@
+.btn {
+    color: $white;
+    cursor: pointer;
+    padding: 10px 30px;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 200px;
+    border: none;
+}
+
+.btn:focus {
+    outline: 0;
+}

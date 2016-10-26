@@ -1,0 +1,113 @@
+#my_popup {
+    width: 60%;
+    border-radius: 10px;
+    background-color: $white;
+    color: $grey;
+
+    h2 {
+        text-align: center;
+        margin: 20px 0;
+    }
+
+    h3 {
+        margin: 10px 0;
+    }
+
+    button {
+        display: block;
+        margin: 20px auto;
+        background-color: #777777;
+        transition: background-color 0.2s;
+
+        &:hover,
+        &:active {
+            background-color: $grey;
+        }
+    }
+
+    span.ex {
+        text-decoration: underline;
+    }
+}
+
+#info_popup {
+    color: $white;
+    background-color: rgba(0, 0, 0, 0.75);
+
+    div {
+        padding: 30px;
+    }
+
+    img {
+        float: left;
+        margin-right: 10px;
+    }
+
+    p {
+        margin:10px;
+        &.title,
+        &.authors,
+        &.publisher,
+        &.publishedDate {
+            display: inline-block;
+            margin: 10px;
+        }
+
+        &.title {
+            font-weight: 400;
+        }
+
+        &.description {
+            font-size: 80%;
+        }
+
+        &.pageCount,
+        &.averageRating,
+        &.ratingsCount {
+            font-size: 70%;
+            margin: 10px;
+            display: inline-block;
+        }
+    }
+
+    a {
+        float: right;
+        padding: 10px;
+    }
+    
+    button {
+        float: right;
+        margin: 20px;
+        background-color: #777777;
+        transition: background-color 0.2s;
+
+        &:hover,
+        &:active {
+            background-color: $grey;
+        }
+    }
+
+    a {
+        font-size: 80%;
+        color: $white;
+        text-decoration: none;
+        padding: 5px 20px;
+        border-radius: 200px;
+        border: none;
+        cursor: pointer;
+        background-color: $mainColor;
+        transition: background-color 0.2s;
+
+        &:hover,
+        &:active {
+            background-color: $mainTransitionColor;
+            text-decoration: none;
+        }
+
+        #content-section a:link,
+        #content-section a:visited {
+            text-decoration: none;
+            color: #000000;
+        }
+    }
+}
