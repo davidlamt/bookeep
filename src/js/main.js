@@ -160,7 +160,7 @@
         // });
 
         $.ajax({
-            url: 'https://crossorigin.me/' + url,
+            url: 'https://cors-anywhere.herokuapp.com/' + url,
             type: 'GET',
             success: function(data) {
                 // Determining if results were found

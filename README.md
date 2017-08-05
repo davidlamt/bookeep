@@ -4,7 +4,7 @@ A book information directory that also helps users find new or used books for sa
 
 ## Version
 
-**1.0.0**
+**1.1.0**
 
 ## Demo
 
